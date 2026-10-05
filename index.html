@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Caperucita Roja</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Condensed:wght@400;600&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<div class="bosque" aria-hidden="true">
+  <div class="arbol lejos l1"></div><div class="arbol lejos l2"></div>
+  <div class="arbol lejos l3"></div><div class="arbol lejos l4"></div>
+  <div class="arbol cerca c1"></div><div class="arbol cerca c2"></div>
+  <div class="arbol cerca c3"></div><div class="arbol cerca c4"></div>
+  <div class="arbol extra e1"></div><div class="arbol extra e2"></div>
+  <div class="arbol extra e3"></div><div class="arbol extra e4"></div>
+  <div class="camino"></div>
+  <div class="sombra"></div>
+</div>
+
+<iframe class="musica" title="Música de fondo" src="https://www.youtube.com/embed/M-sLwYTCM6k?autoplay=1&amp;loop=1&amp;playlist=M-sLwYTCM6k" allow="autoplay; encrypted-media"></iframe>
+
+<main>
+
+<section class="pasaje" id="inicio">
+  <h1>Caperucita Roja</h1>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFGt2RYTFi3p2R0Aoyt3lCBNMh9HnIBIUigblwOmwMDYe9K0CjgRomGBUW&amp;s=10" alt="Caperucita Roja con su canasta">
+  <p>Había una vez una niña que todos llamaban Caperucita Roja, por la capa de ese color que su abuelita le había tejido. Hoy el camino la espera, y cada paso que des lo elegirás vos.</p>
+  <div class="huellas"><a href="#casa">Empezar el cuento</a></div>
+</section>
+
+<section class="pasaje" id="casa">
+  <h1>La canasta</h1>
+  <p>Su mamá le preparó una canasta con pan, manteca y un pastel. «Llevásela a tu abuelita, que está enferma, y no te detengas con nadie», le dijo. En el bosque, el sendero se abre en dos.</p>
+  <p>A la izquierda, un camino corto, ancho y lleno de sol. A la derecha, uno largo, angosto y cubierto de sombras.</p>
+  <div class="huellas">
+    <a href="#corto">Tomar el camino corto y soleado</a>
+    <a href="#largo" class="lobo">Tomar el camino largo y oscuro</a>
+  </div>
+</section>
+
+<section class="pasaje abuela" id="corto">
+  <h1>El camino seguro</h1>
+  <p>Caperucita camina entre troncos claros y hojas que dejan pasar la luz. Escucha pájaros, juega con las mariposas y, sin sobresaltos, ve a lo lejos la casita de su abuela.</p>
+  <div class="huellas"><a href="#final1" class="abuela">Llamar a la puerta</a></div>
+</section>
+
+<section class="pasaje peligro" id="largo">
+  <h1>El camino oscuro</h1>
+  <p>Los árboles se cierran sobre ella y la luz casi desaparece. Entre las ramas se oyen pasos que no son los suyos. De pronto, junto a un tronco, un par de ojos grises la observan: es el lobo.</p>
+  <p>Con voz amable le pregunta adónde va con tanta prisa. Detrás de él, un claro lleno de flores la invita a distraerse.</p>
+  <div class="huellas">
+    <a href="#final2" class="lobo">Contarle adónde va y recoger flores con él</a>
+    <a href="#sigue" class="lobo">Esquivarlo y seguir andando</a>
+  </div>
+</section>
+
+<section class="pasaje peligro" id="sigue">
+  <h1>Una bifurcación entre las raíces</h1>
+  <p>Caperucita corre sin mirar atrás hasta que los pasos se pierden. El lobo ya no está. Frente a ella, el sendero vuelve a dividirse: un atajo junto al arroyo y un camino de raíces retorcidas.</p>
+  <div class="huellas">
+    <a href="#arroyo" class="abuela">Seguir el atajo del arroyo</a>
+    <a href="#raices" class="lobo">Seguir el camino de raíces</a>
+  </div>
+</section>
+
+<section class="pasaje abuela" id="arroyo">
+  <h1>La casita junto al arroyo</h1>
+  <p>El atajo la deja en la puerta antes de lo previsto. La abuelita la recibe con un abrazo, acomoda la mesa y las dos empiezan a compartir la comida de la canasta.</p>
+  <p>Entre bocado y bocado, algo rasca la puerta.</p>
+  <div class="huellas"><a href="#final3" class="lobo">Abrir la puerta</a></div>
+</section>
+
+<section class="pasaje peligro" id="raices">
+  <h1>La casa en silencio</h1>
+  <p>La puerta está abierta y la casa, extrañamente callada. En la cama hay alguien con el camisón y el gorro de la abuelita. Lo que Caperucita no sabe es que el lobo llegó antes y ya se comió a la abuela.</p>
+  <p>—Qué orejas tan grandes tienes, abuelita —dice ella, acercándose.</p>
+  <div class="huellas"><a href="#dientes" class="lobo">Preguntar por sus dientes</a></div>
+</section>
+
+<section class="pasaje peligro" id="dientes">
+  <h1>«Para comerte mejor»</h1>
+  <p>—Qué ojos tan grandes tienes... Qué boca tan grande tienes...</p>
+  <p>—¡Para comerte mejor! —ruge el lobo, y se incorpora de un salto. Caperucita retrocede hasta la pared. Afuera, el bosque está en calma.</p>
+  <div class="huellas">
+    <a href="#final4" class="lobo">Quedarse paralizada</a>
+    <a href="#final5">Gritar con todas sus fuerzas</a>
+  </div>
+</section>
+
+<section class="pasaje abuela" id="final1">
+  <h1>Final: A salvo</h1>
+  <p>La abuelita abre la puerta con una sonrisa. Caperucita le entrega la canasta y las dos se sientan a comer pan, manteca y pastel, mientras afuera el sol atraviesa las ramas. Llegar por el camino corto fue la decisión más prudente.</p>
+  <div class="huellas"><a href="#inicio">Volver a empezar</a></div>
+</section>
+
+<section class="pasaje peligro" id="final2">
+  <h1>Final: El lobo en el bosque</h1>
+  <p>Caperucita le cuenta todo al lobo y se pone a juntar flores. Cuando levanta la vista, las flores han caído de sus manos: las fauces grises se abren frente a ella. El lobo se la come en medio del bosque, y la canasta queda sola en el sendero.</p>
+  <div class="huellas"><a href="#inicio" class="lobo">Volver a empezar</a></div>
+</section>
+
+<section class="pasaje peligro" id="final3">
+  <h1>Final: El lobo llama a la puerta</h1>
+  <p>Al abrir, el lobo se lanza hacia adentro. Caperucita y su abuelita no alcanzan a esconderse: el lobo se las come a las dos, y la mesa servida queda vacía.</p>
+  <div class="huellas"><a href="#inicio" class="lobo">Volver a empezar</a></div>
+</section>
+
+<section class="pasaje peligro" id="final4">
+  <h1>Final: Nadie escuchó</h1>
+  <p>Caperucita no logra emitir ningún sonido. El lobo, disfrazado de abuelita, se la come de un bocado y se echa a dormir. El bosque sigue en silencio y nadie viene a ayudarla.</p>
+  <div class="huellas"><a href="#inicio" class="lobo">Volver a empezar</a></div>
+</section>
+
+<section class="pasaje cazador" id="final5">
+  <h1>Final: El cazador</h1>
+  <p>El grito de Caperucita atraviesa el bosque, pero el lobo es más rápido y se la traga. Un cazador que pasaba cerca escucha el alboroto y entra a la casa. Con su escopeta acaba con el lobo y, al abrirle la panza, salen sanas y salvas Caperucita y su abuelita.</p>
+  <p>Los tres se sientan a la mesa y comen juntos lo que había en la canasta. Caperucita aprendió a no desviarse del camino.</p>
+  <div class="huellas"><a href="#inicio" class="cazador">Volver a empezar</a></div>
+</section>
+
+</main>
+</body>
+</html>
